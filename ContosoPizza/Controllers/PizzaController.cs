@@ -50,8 +50,8 @@ namespace ContosoPizza.Controllers
                 BootstrapServers = "pkc-epwny.eastus.azure.confluent.cloud:9092",
                 SaslMechanism = SaslMechanism.Plain,
                 SecurityProtocol = SecurityProtocol.SaslSsl,
-                SaslUsername = "XTSLXLHZOLQLOLRF",
-                SaslPassword = "jLsz23wonNID0Eic1hSeCRLhL9nySQkPsoNkGCiVJm17tz+6RkmjlhKHg3vdl/je"
+                SaslUsername = "user",
+                SaslPassword = "password/je"
             };
           
             using (var producer = new ProducerBuilder<string, string>(pConfig).Build())
